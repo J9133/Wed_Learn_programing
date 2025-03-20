@@ -3,19 +3,19 @@ const array_name = ["html", "cpp", "js"];
 const web_lang = document.getElementById('web_lang')
 
 function html_open() {
-  window.location.href = "./windows/html.html";
+  window.location.href = "../windows/html.html";
 }
 
 function js_open() {
-  window.location.href = "./windows/js.html";
+  window.location.href = "../windows/js.html";
 }
 
 function cpp_open() {
-  window.location.href = "./windows/cpp.html";
+  window.location.href = "../windows/cpp.html";
 }
 
 function p_open() {
-  window.location.href = "./windows/project.html";
+  window.location.href = "../windows/project.html";
 }
 
 async function load_data(I) {
