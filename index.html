@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+  
+  <body>
+  <div style="background-color: #0010C2; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; color: white;">
+    
+    <div style="font-size: 24px; font-weight: bold;" id="web_name">تعلم برمجة</div>
+    
+    <div style="background-color: #000A77; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer;" onclick="lango()" id="web_lang">تغيير اللغة</div>
+  </div>
+</body>
+
+  
+  <div class="cards" id="card_html" onclick="html_open()">
+    <img srcset="./img/html.png" src="" alt="html_icon" class="html_icon">
+    
+    <div class="txtarea" id="txtarea">
+      <div class="txt_html"id="txt_html">Learn</div>
+      <div class="txt_html2"id="txt_html">html and css</div>
+    </div>
+    
+  </div>
+  
+    <div class="cards" id="card_js" onclick="js_open()">
+    <img srcset="./img/JavaScript.png" src="" alt="html_icon" class="html_icon">
+    
+    <div class="txtarea" id="txtarea">
+      <div class="txt_html"id="txt_html">Learn</div>
+      <div class="txt_html2"id="txt_html">java script</div>
+    </div>
+    
+  </div>
+    <div class="cards" id="card_cpp" onclick="cpp_open()">
+    <img srcset="./img/cpp.png" src="" alt="html_icon" class="html_icon">
+    
+    <div class="txtarea" id="txtarea">
+      <div class="txt_html"id="txt_html">Learn</div>
+      <div class="txt_html3"id="txt_html">C++</div>
+    </div>
+    
+  </div>
+  
+  <div class="card" id="card" onclick="p_open()">
+    <img src="img/project.png" alt="project_background" class="img_back"/>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+
+</html>

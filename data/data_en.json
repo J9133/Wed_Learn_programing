@@ -1,0 +1,5 @@
+{
+  "html": "HTML (Hypertext Markup Language) is a language used to build the structure of web pages. With HTML, you can define headings, paragraphs, links, images, tables, and other basic elements that form the page.  \n \n CSS (Cascading Style Sheets) is a language used to style the appearance of web pages. With CSS, you can control colors, fonts, margins, borders, layouts, and many other styles that define how HTML content is displayed.",
+  "js": "JavaScript is a programming language used to make web pages interactive. With JavaScript, you can add dynamic effects, interact with users, perform calculations, and control the behavior of the page after it has loaded.",
+  "cpp": "C++ is a programming language used to develop complex software and applications. C++ is known for its ability to work directly with the system and provide full control over memory, making it ideal for low-level programming, game development, and embedded systems."
+}

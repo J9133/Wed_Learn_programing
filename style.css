@@ -1,0 +1,60 @@
+.cards{
+  background: #0010C2;
+  height: 160px;
+  width: 110px;
+  border-radius: 20px;
+  border: 6px solid #000A77;
+  float: left;
+  margin: 3.4px;
+}
+
+.html_icon{
+  position: relative;
+  height: 60%;
+  width: 90%;
+  left: 4%;
+  top: 2%;
+}
+
+.txt_html{
+  position: relative;
+  left: 30%;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.txt_html2 {
+  position: relative;
+  left: 60%;
+  margin-top: 16px;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.txt_html3 {
+  position: relative;
+  left: 88%;
+  margin-top: 16px;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.card{
+  background-image: url('/img/cpp.png');
+  height: 206px;
+  width: 96%;
+  border-radius: 20px;
+  border: 6px solid #000A77;
+  float: left;
+  margin: 3px
+}
+
+
+.img_back{
+  position: relative;
+  border-radius: 14px;
+  z-index: 0;
+  width: 100%;
+}
